@@ -144,30 +144,25 @@ output/sample_output/scan_result.json
     ]
 }
 
-⚠️ Limitations & Future Work
-Current Limitations
+---
 
-Only scans TCP ports
+## ⚠️ Limitations & Future Work
 
-Rule-based risk mapping (no live CVE lookup)
+### Current Limitations
 
-Does not detect version-specific vulnerabilities
+- Only scans TCP ports  
+- Rule-based risk mapping (no live CVE lookup)  
+- Does not detect version-specific vulnerabilities  
+- No GUI interface  
+- Single-host scanning only  
 
-No GUI interface
+### Future Improvements
 
-Single-host scanning only
-
-Future Improvements
-
-Integrate CVE database lookup
-
-Add OS detection
-
-Add subnet scanning (e.g., /24 networks)
-
-Implement web-based dashboard
-
-Add vulnerability severity scoring (CVSS)
+- Integrate live CVE database lookup  
+- Add operating system detection  
+- Support subnet scanning (e.g., /24 networks)  
+- Implement web-based dashboard  
+- Add vulnerability severity scoring (CVSS)
 
 📚 References
 

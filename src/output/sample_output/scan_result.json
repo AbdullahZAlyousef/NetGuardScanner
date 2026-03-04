@@ -1,0 +1,39 @@
+{
+    "127.0.0.1": [
+        {
+            "port": 135,
+            "protocol": "tcp",
+            "service": "msrpc",
+            "risk": "Unknown",
+            "reason": "No specific risk rule defined."
+        },
+        {
+            "port": 445,
+            "protocol": "tcp",
+            "service": "microsoft-ds",
+            "risk": "High",
+            "reason": "SMB service exposed; common ransomware target."
+        },
+        {
+            "port": 903,
+            "protocol": "tcp",
+            "service": "iss-console-mgr",
+            "risk": "Unknown",
+            "reason": "No specific risk rule defined."
+        },
+        {
+            "port": 4343,
+            "protocol": "tcp",
+            "service": "unicall",
+            "risk": "Unknown",
+            "reason": "No specific risk rule defined."
+        },
+        {
+            "port": 4449,
+            "protocol": "tcp",
+            "service": "privatewire",
+            "risk": "Unknown",
+            "reason": "No specific risk rule defined."
+        }
+    ]
+}
